@@ -56,3 +56,22 @@ class BlogPostsHeading extends StatelessWidget {
     );
   }
 }
+
+class CustomersHeading extends StatelessWidget {
+  const CustomersHeading({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(left: 8, top: 16, bottom: 8),
+          child: Text(
+            "What Our Customers Say?",
+            style: TextStyle(fontSize: 20, color: Colors.black87),
+          ),
+        ),
+      ],
+    );
+  }
+}
