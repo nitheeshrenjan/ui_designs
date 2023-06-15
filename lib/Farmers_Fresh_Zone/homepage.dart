@@ -1,3 +1,4 @@
+import 'package:farmers_freshzone/Widgets/GourmetWidget.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -7,7 +8,7 @@ import 'Widgets/BottomBarConvex.dart';
 import 'Widgets/CategoriesHome.dart';
 import 'Widgets/CertificationDetails.dart';
 import 'Widgets/Dropdown_location.dart';
-import 'Widgets/GourmetWidget.dart';
+import 'Widgets/EndingOfHome.dart';
 import 'Widgets/Headings.dart';
 import 'Widgets/Image_Slider_FrontPage.dart';
 import 'Widgets/Options_Row_Top.dart';
@@ -90,10 +91,13 @@ class _Farmers_FreshzoneState extends State<Farmers_Freshzone> {
                 CertificationDetails(),
                 BlogPostsHeading(),
                 BlogPosts(),
-                ViewMoreBlogs()
+                ViewMoreBlogs(),
+                CustomersHeading(),
+                EndingOfHome()
               ],
             ),
           )
+       
         ],
       ),
     );
